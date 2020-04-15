@@ -1,0 +1,378 @@
+header{
+  height:300px;
+  background:url(../../assets/img/truckblue.jpg) no-repeat center;
+  background-size:cover;
+}
+
+.navbar-nav{
+  margin-top:14px;
+}
+
+.navbar-nav .nav li{
+  height:50px;
+}
+
+.navbar-nav > li > a{
+  padding-top:8px;
+  padding-bottom:8px;
+  line-height:32px;
+}
+
+.navbar-default .navbar-nav > li > a{
+  color:#333;
+  font-weight:bold;
+  background-color:rgba(255,255,255,0.4);
+}
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus{
+  color:#fff;
+  background-color:rgba(0,0,0,0.6);
+  font-weight:bold;
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus{
+  color:#fff;
+  background-color:rgba(0,0,0,0.6);
+  font-weight:bold;
+}
+
+.navbar-toggle{
+  background-color:#fff !important;
+  box-shadow:1px 1px 1px rgba(0,0,0,0.4);
+  margin-top:20px;
+}
+
+nav.navbar.navbar-default{
+  background:none;
+  box-shadow:none;
+}
+
+.navbar-brand{
+  height:75px;
+  font-size:18px;
+  color:#fff !important;
+  text-shadow:1px 1px 1px rgba(0,0,0,0.4);
+}
+
+.navbar-brand span.text-title{
+  text-transform:uppercase;
+  font-weight:bold;
+}
+
+@media (max-width:767px) {
+  .navbar-brand span.text-title{
+    display:none;
+  }
+}
+
+.navbar-brand .glyphicon{
+  display:inline-block;
+  font-size:36px;
+  color:#fff;
+  vertical-align:middle;
+  margin-right:20px;
+  position:relative;
+  top:-2px;
+}
+
+@media (min-width:768px) {
+  .navbar-nav li{
+    margin-left:10px;
+  }
+}
+
+.categories{
+  text-align:center !important;
+  margin-bottom:20px;
+  border-bottom:1px solid #e4e4e4;
+  padding:10px;
+}
+
+.categories li{
+  display:inline-block !important;
+  float:none;
+}
+
+.post-body{
+  margin-top:30px;
+  font-size:16px;
+}
+
+@media (min-width:992px) {
+  .post-title{
+    text-align:right;
+    padding-right:30px;
+  }
+}
+
+.post-title .author{
+  text-transform:uppercase;
+}
+
+.post-body figure{
+  margin-bottom:10px;
+  text-align:center;
+}
+
+.post-title .author span{
+  margin-left:5px;
+}
+
+.post-title h1{
+  font-weight:bold;
+  margin-top:30px;
+}
+
+@media (max-width:767px) {
+  .post-title h1{
+    margin-top:20px;
+    font-size:32px;
+    margin-bottom:10px;
+  }
+}
+
+footer{
+  padding:20px;
+  text-align:center;
+  background-color: black;
+  color:#fff;
+    border-top-style: groove;
+}
+
+footer h5{
+  color:inherit;
+    font-family: cursive;
+}
+
+div.container.post{
+  margin-bottom:50px;
+}
+
+#heading01{
+  color:white;
+  font-family:cursive;
+}
+
+#heading02{
+  color:white;
+  text-decoration:overline;
+  font-family: cursive;
+}
+
+#headcont{
+  background-color:rgba(0,0,0,0.4);
+  border-radius:5px;
+  padding:10px;
+}
+
+#brand{
+  font-size:30px;
+  font-family: cursive;
+}
+
+#par{
+  font-size:16px;
+}
+
+#row1{
+  padding-top:10px;
+}
+
+#row2{
+  padding-top:10px;
+  background-color:rgba(192,192,192,0.2);
+  border-radius:5px;
+}
+
+#divcol{
+  padding:15px;
+    border-style: groove;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+div#row3{
+  padding-top:10px;
+}
+
+#headcontent{
+  text-decoration:underline;
+  text-decoration-color:rgb(156,39,176);
+  text-decoration-style: wavy;
+}
+
+div#colfom{
+  padding:12px;
+}
+
+form#formq{
+  padding:5px;
+  margin-top:10px;
+}
+
+select#opt{
+  width:100%;
+  background-color:white;
+  padding:5px;
+}
+
+textarea#txtarea{
+  width:100%;
+  background-color:white;
+  padding:5px;
+  border-radius:5px;
+}
+
+input{
+  width:100%;
+}
+
+input#inptdt{
+  width:100%;
+  background-color:rgba(255,255,255,0.5);
+  border-radius:3px;
+  padding:5px;
+}
+
+input#inpt{
+  width:100%;
+  background-color:rgba(255,255,255,0.8);
+  border-radius:3px;
+  padding:5px;
+}
+
+div#colfomall{
+  background-color:rgba(46,82,142,0.05);
+  border-radius:5px;
+  margin-top:20px;
+}
+
+div#rowfom{
+  padding-top:10px;
+}
+
+nav#nav_bar{
+  background-color:rgba(0,0,0,0.4);
+}
+
+div#units{
+  padding:5px;
+  border-radius:5px;
+  background-color:rgba(255,255,255,0.3);
+  text-align:center;
+}
+
+div#rowstore{
+  background-color:rgba(192,192,192,0.1);
+  border-radius:5px;
+}
+
+div#divstr{
+  padding-top:10px;
+}
+
+div#continpt{
+  padding:10px;
+}
+
+textarea#inptarea{
+  padding:10px;
+  width:100%;
+}
+
+div#contcol{
+  padding:10px;
+  margin-top:20px;
+}
+
+div#tabloc{
+  border-radius:5px;
+}
+
+#login{
+  padding:50px;
+  border-radius:10px;
+}
+
+body#bdy{
+  margin:200px;
+}
+
+h2#headlog{
+  padding:10px;
+  border-radius:10px;
+  color:white;
+}
+#lnk{
+color: white;
+    border-radius: 5px;
+}
+button#logbtn{
+  border-style:groove;
+  border-radius:5px;
+}
+
+div#colfomall2{
+  background-color:rgba(22,48,91,0.1);
+  border-radius:5px;
+  margin-top:20px;
+  margin-bottom:20px;
+  border-style:outset;
+}
+h4#headlog{
+  text-decoration:underline;
+}
+
+input#inpt{
+  width:100%;
+  background-color:rgba(255,255,255,0.8);
+  border-radius:3px;
+  padding:5px;
+}
+
+div#colfom{
+  padding:12px;
+}
+
+div#logdiv{
+  margin:10px;
+  border-radius:10px;
+}
+
+div#coladmq{
+  background-color:rgba(46,82,142,0.05);
+  border-radius:5px;
+  margin-top:20px;
+  margin-bottom:20px;
+  border-style:inset;
+}
+
+div#coladmq1{
+  background-color:rgba(46,82,142,0.05);
+  border-radius:5px;
+  margin-top:20px;
+  margin-bottom:20px;
+  border-style:groove;
+}
+
+div#admsinrow{
+  padding:5px;
+}
+
+div#admsinrow1{
+  padding:10px;
+}
+
+a#btnmessage.btn.btn-info.btn-block.btn-sm{
+  border-radius:5px;
+}
+
+th#cellast{
+  border-top-right-radius:5px;
+}
+
+td#btncell{
+  padding:5px;
+}
+
+
