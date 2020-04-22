@@ -4,7 +4,7 @@
 ## iRelocate
 iRelocate, as the name suggests, is a Moving Company Management System that focuses on Home and Office relocation while also providing Storage Spaces services.
 This system can be useful for companies that provide relocation services to market their services, provide easy customer interaction and customer support.
-Features & modules:
+## Features & modules:
 1. User Login/signup system.
 2. Account privileges and access control.
 3. Form input & validation.
